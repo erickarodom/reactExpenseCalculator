@@ -25,31 +25,50 @@ body {
   min-height: 100vh;
   background-color: rgb(57, 218, 57);
 }
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+}
 h1 {
   font-size: 3.2em;
-  margin: 0;
 }
 h2 {
   font-size: 2.3em;
-  text-align: center;
-  margin: 0;
 }
-button {
+
+form,
+table {
+  margin-top: 2em;
+}
+input,
+select {
+  height: 2em;
+  border-radius: 5px;
+  border: solid 1px grey;
+}
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  padding-right: 10px;
+}
+
+input[type="submit"] {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #9c6e39;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+input[type="submit"]:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
+input[type="submit"]:focus,
+input[type="submit"]:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
