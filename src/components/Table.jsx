@@ -1,24 +1,24 @@
 export function Table(){
+
+
+
+
+
+
+
     return (
-        <>
-        <table>
-            <thead id="tableHeader">
-                <tr>
-                    <th>type</th>
-                    <th>item</th>
-                    <th>date</th>
-                    <th>amount</th>
-                </tr>
-            </thead>
-            <tbody id="tableBody"></tbody>
-            <tfoot>
-                <tr>
-                    <td>
-                    Your added items will show up here!
-                    </td>
-                </tr>
-            </tfoot>
-      </table>
-      </>
+        <div id="tableContainer" className="table-ctnr">
+            <table>
+                <thead id="tableHeader" className="table-header">
+                    <tr>
+                        <th>type</th>
+                        <th>item</th>
+                        <th>date</th>
+                        <th>amount</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" className="table-body"></tbody>
+        </table>
+      </div>
     )
 }
